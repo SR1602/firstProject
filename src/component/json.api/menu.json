@@ -1,0 +1,41 @@
+[
+{
+    "label":"Home",
+    "link":"/",
+    "isDropDown":false
+},
+{
+    "label":"Practice Area",
+    "link":"practice",
+    "isDropDown":false
+},
+{
+    "label":"About",
+    "link":"about",
+    "isDropDown":false
+},
+{
+    "label":"Blog",
+    "link":"blog",
+    "isDropDown":true,
+    "dropDownMenu":[
+        {
+            "label":"Blog",
+            "link":"blog"
+        },
+        {
+            "label":"Blog Details",
+            "link":"blog-details"
+        },
+        {
+            "label":"Elements",
+            "link":"elements"
+        }
+    ]
+},
+{   
+    "label":"Contact",
+    "link":"contact",
+    "isDropDown":false
+}   
+]
