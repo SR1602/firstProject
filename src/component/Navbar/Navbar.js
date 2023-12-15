@@ -13,10 +13,7 @@ import menu from '../json.api/menu.json'
 
 const Menu = ({item}) =>{
     return(
-        <NavLink 
-            to={item.link} 
-            className={( {isActive} ) => `${isActive ? 'active' : ''}`}
-        >
+        <NavLink to={item.link} className={( {isActive} ) => `${isActive ? 'active' : ''}`}>
             {item.label}
         </NavLink>
     )    
